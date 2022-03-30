@@ -1,0 +1,124 @@
+header {
+  padding: 50px 0;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+header ul {
+  margin: 0;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul li i {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+header ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+header ul li a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 0%;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header ul li a:hover {
+  color: black;
+}
+
+header ul li a:hover::before {
+  width: 100%;
+}
+
+header ul li i:hover {
+  color: orange;
+}
+
+#first {
+  background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg");
+  background: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+#first .first-img img {
+  width: 100%;
+}
+
+#second {
+  padding: 50px 0;
+}
+
+#second ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#second ul li a:hover {
+  color: orange;
+}
+
+#second select {
+  border: none;
+}
+
+#second .bottom .product-img {
+  height: 300px;
+  overflow: hidden;
+}
+
+#second .bottom .product-img img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#second .bottom .product-img:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#third {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+}
+
+#third .third-img img {
+  width: 100%;
+}
+
+#third ul {
+  padding-left: 0 !important;
+}
+
+#third ul li {
+  list-style-type: none;
+}
+
+#third ul li i {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
